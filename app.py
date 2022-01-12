@@ -1,6 +1,7 @@
 import streamlit as st
 import yfinance
 import pandas as pd
+import pandas_ta as ta
 
 ticker = str(st.text_input("-Input Desired Ticker (Yahoo Finance)"))
 
